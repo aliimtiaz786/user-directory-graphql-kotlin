@@ -1,0 +1,7 @@
+graphql:
+  packages:
+    - "com.users.directory"
+    - "com.expediagroup.graphql.federation"
+  subscriptions:
+    # Send a ka message every 1000 ms (1 second)
+    keepAliveInterval: 1000
